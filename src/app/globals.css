@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    @apply bg-gray-50 text-gray-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-semibold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl leading-tight;
+  }
+  
+  h3 {
+    @apply text-2xl leading-snug;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .animate-fade-in {
+    @apply transition-opacity duration-300 ease-in-out;
+  }
+  
+  .animate-slide-up {
+    @apply transition-transform duration-500 ease-out;
+  }
+  
+  .animate-scale {
+    @apply transition-transform duration-300 ease-in-out;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .transition-all-300 {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .glass-effect {
+    @apply bg-white/80 backdrop-filter backdrop-blur-md;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-medium hover:translate-y-[-2px];
+  }
+
+  .gradient-primary {
+    @apply bg-gradient-to-br from-primary-400 to-primary-600;
+  }
+  
+  .gradient-secondary {
+    @apply bg-gradient-to-br from-secondary-200 to-secondary-400;
+  }
+  
+  /* Styles pour les conteneurs principaux */
+  .page-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 py-8;
+  }
+  
+  /* Styles pour les sections */
+  .section {
+    @apply mb-12;
+  }
+  
+  .section-title {
+    @apply text-2xl font-semibold text-gray-900 mb-6;
+  }
+  
+  /* Style pour un design plus aéré */
+  .content-card {
+    @apply bg-white rounded-xl shadow-soft p-6 border border-gray-100;
+  }
+  
+  /* Styles pour les textes */
+  .text-subtle {
+    @apply text-gray-500 text-sm;
+  }
+  
+  .text-badge {
+    @apply inline-flex items-center text-xs font-medium rounded-full px-2.5 py-0.5;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

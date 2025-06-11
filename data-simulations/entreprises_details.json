@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "source": "API SIRENE/INPI - Simulation",
+    "version": "1.0.0",
+    "last_updated": "2024-07-01"
+  },
+  "enterprises": [
+    {
+      "siren": "789456123",
+      "siret": "78945612300015",
+      "denomination": "TECHINNOVATE",
+      "denomination_usuelle": "TechInnovate SAS",
+      "forme_juridique": {
+        "code": "5710",
+        "libelle": "Société par actions simplifiée (SAS)"
+      },
+      "date_creation": "2015-03-15",
+      "date_debut_activite": "2015-04-01",
+      "capital_social": 150000,
+      "devise_capital": "EUR",
+      "etat_administratif": "A",
+      "activite_principale": {
+        "code": "6201Z",
+        "libelle": "Programmation informatique"
+      },
+      "siege": {
+        "siret": "78945612300015",
+        "adresse": {
+          "numero_voie": "23",
+          "type_voie": "RUE",
+          "libelle_voie": "DE L'INNOVATION",
+          "complement_adresse": null,
+          "code_postal": "75008",
+          "libelle_commune": "PARIS",
+          "code_commune": "75108",
+          "code_cedex": null,
+          "libelle_cedex": null
+        },
+        "date_debut": "2015-03-15"
+      },
+      "dirigeants": [
+        {
+          "type": "PP",
+          "nom": "DUBOIS",
+          "prenom": "Sophie",
+          "fonction": "Président",
+          "date_debut_fonction": "2015-03-15",
+          "date_naissance": "1978-09-22",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PP",
+          "nom": "MARTIN",
+          "prenom": "Thomas",
+          "fonction": "Directeur Général",
+          "date_debut_fonction": "2018-05-10",
+          "date_naissance": "1982-03-14",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PP",
+          "nom": "CHEN",
+          "prenom": "Laurent",
+          "fonction": "Directeur Technique",
+          "date_debut_fonction": "2019-09-01",
+          "date_naissance": "1985-11-07",
+          "nationalite": "Française"
+        }
+      ],
+      "mandats_externes": [
+        {
+          "dirigeant": "DUBOIS Sophie",
+          "entreprises": [
+            {
+              "siren": "523456789",
+              "denomination": "DIGITALSOFT",
+              "forme_juridique": "SARL",
+              "fonction": "Gérant"
+            },
+            {
+              "siren": "845678912",
+              "denomination": "INVESTTECH",
+              "forme_juridique": "SAS",
+              "fonction": "Président"
+            }
+          ]
+        },
+        {
+          "dirigeant": "CHEN Laurent",
+          "entreprises": [
+            {
+              "siren": "801234567",
+              "denomination": "DEVLABS",
+              "forme_juridique": "SAS",
+              "fonction": "Directeur Général"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siren": "823517649",
+      "siret": "82351764900012",
+      "denomination": "BIOMED RESEARCH",
+      "denomination_usuelle": "BioMed Research",
+      "forme_juridique": {
+        "code": "5710",
+        "libelle": "Société par actions simplifiée (SAS)"
+      },
+      "date_creation": "2018-06-22",
+      "date_debut_activite": "2018-07-15",
+      "capital_social": 80000,
+      "devise_capital": "EUR",
+      "etat_administratif": "A",
+      "activite_principale": {
+        "code": "7211Z",
+        "libelle": "Recherche-développement en biotechnologie"
+      },
+      "siege": {
+        "siret": "82351764900012",
+        "adresse": {
+          "numero_voie": "45",
+          "type_voie": "AVENUE",
+          "libelle_voie": "PASTEUR",
+          "complement_adresse": null,
+          "code_postal": "69007",
+          "libelle_commune": "LYON",
+          "code_commune": "69387",
+          "code_cedex": null,
+          "libelle_cedex": null
+        },
+        "date_debut": "2018-06-22"
+      },
+      "dirigeants": [
+        {
+          "type": "PP",
+          "nom": "LAMBERT",
+          "prenom": "Marie",
+          "fonction": "Président",
+          "date_debut_fonction": "2018-06-22",
+          "date_naissance": "1975-04-18",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PP",
+          "nom": "NGUYEN",
+          "prenom": "Jean",
+          "fonction": "Directeur Scientifique",
+          "date_debut_fonction": "2018-06-22",
+          "date_naissance": "1972-11-30",
+          "nationalite": "Française"
+        }
+      ],
+      "mandats_externes": [
+        {
+          "dirigeant": "LAMBERT Marie",
+          "entreprises": [
+            {
+              "siren": "791234567",
+              "denomination": "MEDTECH INNOVATIONS",
+              "forme_juridique": "SAS",
+              "fonction": "Membre du Conseil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siren": "851294736",
+      "siret": "85129473600014",
+      "denomination": "ECOVERT ENERGIE",
+      "denomination_usuelle": "EcoVert Énergie",
+      "forme_juridique": {
+        "code": "5710",
+        "libelle": "Société par actions simplifiée (SAS)"
+      },
+      "date_creation": "2019-01-10",
+      "date_debut_activite": "2019-02-01",
+      "capital_social": 500000,
+      "devise_capital": "EUR",
+      "etat_administratif": "A",
+      "activite_principale": {
+        "code": "3511Z",
+        "libelle": "Production d'électricité"
+      },
+      "siege": {
+        "siret": "85129473600014",
+        "adresse": {
+          "numero_voie": "12",
+          "type_voie": "RUE",
+          "libelle_voie": "DES ÉOLIENNES",
+          "complement_adresse": null,
+          "code_postal": "44000",
+          "libelle_commune": "NANTES",
+          "code_commune": "44109",
+          "code_cedex": null,
+          "libelle_cedex": null
+        },
+        "date_debut": "2019-01-10"
+      },
+      "dirigeants": [
+        {
+          "type": "PP",
+          "nom": "MOREAU",
+          "prenom": "Philippe",
+          "fonction": "Président",
+          "date_debut_fonction": "2019-01-10",
+          "date_naissance": "1970-07-25",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PP",
+          "nom": "LEROY",
+          "prenom": "Catherine",
+          "fonction": "Directeur Général",
+          "date_debut_fonction": "2019-01-10",
+          "date_naissance": "1974-03-12",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PM",
+          "denomination": "GREEN INVEST",
+          "siren": "798765432",
+          "forme_juridique": "SAS",
+          "fonction": "Membre du Conseil",
+          "date_debut_fonction": "2019-01-10"
+        }
+      ],
+      "mandats_externes": [
+        {
+          "dirigeant": "MOREAU Philippe",
+          "entreprises": [
+            {
+              "siren": "812345678",
+              "denomination": "SOLAIRE FRANCE",
+              "forme_juridique": "SAS",
+              "fonction": "Président"
+            },
+            {
+              "siren": "834567891",
+              "denomination": "HYDRO SOLUTIONS",
+              "forme_juridique": "SAS",
+              "fonction": "Membre du Conseil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "siren": "478236951",
+      "siret": "47823695100025",
+      "denomination": "CONSTRUX BTP",
+      "denomination_usuelle": "Construx BTP",
+      "forme_juridique": {
+        "code": "5499",
+        "libelle": "Société à responsabilité limitée (SARL)"
+      },
+      "date_creation": "2010-09-05",
+      "date_debut_activite": "2010-10-01",
+      "capital_social": 100000,
+      "devise_capital": "EUR",
+      "etat_administratif": "A",
+      "activite_principale": {
+        "code": "4120B",
+        "libelle": "Construction d'autres bâtiments"
+      },
+      "siege": {
+        "siret": "47823695100025",
+        "adresse": {
+          "numero_voie": "8",
+          "type_voie": "AVENUE",
+          "libelle_voie": "DES BÂTISSEURS",
+          "complement_adresse": null,
+          "code_postal": "33000",
+          "libelle_commune": "BORDEAUX",
+          "code_commune": "33063",
+          "code_cedex": null,
+          "libelle_cedex": null
+        },
+        "date_debut": "2015-04-15"
+      },
+      "etablissements_secondaires": [
+        {
+          "siret": "47823695100017",
+          "adresse": {
+            "numero_voie": "3",
+            "type_voie": "RUE",
+            "libelle_voie": "DES ARTISANS",
+            "complement_adresse": "ZI LES CHAMPS",
+            "code_postal": "33700",
+            "libelle_commune": "MÉRIGNAC",
+            "code_commune": "33281",
+            "code_cedex": null,
+            "libelle_cedex": null
+          },
+          "date_debut": "2010-09-05",
+          "date_fin": "2015-04-15",
+          "est_siege": false
+        }
+      ],
+      "dirigeants": [
+        {
+          "type": "PP",
+          "nom": "DUPONT",
+          "prenom": "Michel",
+          "fonction": "Gérant",
+          "date_debut_fonction": "2010-09-05",
+          "date_naissance": "1965-12-10",
+          "nationalite": "Française"
+        }
+      ],
+      "mandats_externes": []
+    },
+    {
+      "siren": "812567439",
+      "siret": "81256743900011",
+      "denomination": "INNOFINANCE",
+      "denomination_usuelle": "InnoFinance",
+      "forme_juridique": {
+        "code": "5710",
+        "libelle": "Société par actions simplifiée (SAS)"
+      },
+      "date_creation": "2017-04-18",
+      "date_debut_activite": "2017-05-01",
+      "capital_social": 200000,
+      "devise_capital": "EUR",
+      "etat_administratif": "A",
+      "activite_principale": {
+        "code": "6619B",
+        "libelle": "Autres activités auxiliaires de services financiers, hors assurance et caisses de retraite, n.c.a."
+      },
+      "siege": {
+        "siret": "81256743900011",
+        "adresse": {
+          "numero_voie": "32",
+          "type_voie": "RUE",
+          "libelle_voie": "DE LA BOURSE",
+          "complement_adresse": null,
+          "code_postal": "75002",
+          "libelle_commune": "PARIS",
+          "code_commune": "75102",
+          "code_cedex": null,
+          "libelle_cedex": null
+        },
+        "date_debut": "2017-04-18"
+      },
+      "dirigeants": [
+        {
+          "type": "PP",
+          "nom": "MERCIER",
+          "prenom": "Julien",
+          "fonction": "Président",
+          "date_debut_fonction": "2017-04-18",
+          "date_naissance": "1980-02-28",
+          "nationalite": "Française"
+        },
+        {
+          "type": "PP",
+          "nom": "PETIT",
+          "prenom": "Sandrine",
+          "fonction": "Directeur Général",
+          "date_debut_fonction": "2017-04-18",
+          "date_naissance": "1982-08-15",
+          "nationalite": "Française"
+        }
+      ],
+      "mandats_externes": [
+        {
+          "dirigeant": "MERCIER Julien",
+          "entreprises": [
+            {
+              "siren": "802345678",
+              "denomination": "CAPITAL VENTURES",
+              "forme_juridique": "SAS",
+              "fonction": "Président"
+            },
+            {
+              "siren": "823456789",
+              "denomination": "FINTECH SOLUTIONS",
+              "forme_juridique": "SAS",
+              "fonction": "Membre du Conseil"
+            }
+          ]
+        },
+        {
+          "dirigeant": "PETIT Sandrine",
+          "entreprises": [
+            {
+              "siren": "845678923",
+              "denomination": "INVEST PARTNERS",
+              "forme_juridique": "SAS",
+              "fonction": "Directeur Général"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 

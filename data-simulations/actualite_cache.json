@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "source": "API Perplexity - Simulation",
+    "version": "1.0.0",
+    "last_updated": "2024-07-01"
+  },
+  "sectors": {
+    "Services informatiques": [
+      {
+        "id": "tech-news-1",
+        "title": "La France adopte un cadre réglementaire pour l'IA générative en entreprise",
+        "summary": "Le gouvernement français a publié un nouveau cadre réglementaire pour encadrer l'utilisation de l'IA générative dans les entreprises. Ces directives visent à garantir une utilisation éthique et responsable des technologies comme ChatGPT ou Claude, tout en favorisant l'innovation. Les entreprises devront notamment documenter leurs usages et évaluer les risques associés.",
+        "source": "Les Échos",
+        "url": "https://www.lesechos.fr/tech-medias/intelligence-artificielle/ia-generative-la-france-adopte-un-cadre-reglementaire-pour-les-entreprises",
+        "date": "2024-06-15",
+        "tags": ["réglementation", "IA", "innovation"],
+        "impact": "high"
+      },
+      {
+        "id": "tech-news-2",
+        "title": "Pénurie de talents IT : le secteur numérique français face à 50 000 postes non pourvus",
+        "summary": "Selon une étude de Numeum, la fédération des entreprises du numérique, le secteur français fait face à une pénurie croissante de talents avec près de 50 000 postes non pourvus en 2024. Cette situation affecte particulièrement les PME du secteur qui peinent à attirer les profils spécialisés en cybersécurité, data science et développement cloud.",
+        "source": "Le Monde Informatique",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-penurie-de-talents-it-le-secteur-numerique-face-a-50-000-postes-non-pourvus-92456.html",
+        "date": "2024-05-28",
+        "tags": ["emploi", "formation", "compétitivité"],
+        "impact": "high"
+      },
+      {
+        "id": "tech-news-3",
+        "title": "Cloud souverain : OVHcloud renforce son offre pour les entreprises sensibles",
+        "summary": "L'hébergeur français OVHcloud a annoncé l'extension de son offre de cloud souverain, spécifiquement conçue pour répondre aux exigences des organisations manipulant des données sensibles. Cette nouvelle gamme de services répond aux critères SecNumCloud de l'ANSSI et vise à offrir une alternative européenne aux géants américains du cloud.",
+        "source": "ZDNet",
+        "url": "https://www.zdnet.fr/actualites/cloud-souverain-ovhcloud-renforce-son-offre-pour-les-entreprises-sensibles-39960482.htm",
+        "date": "2024-06-02",
+        "tags": ["cloud", "souveraineté numérique", "cybersécurité"],
+        "impact": "medium"
+      },
+      {
+        "id": "tech-news-4",
+        "title": "Nouveau crédit d'impôt pour la transformation numérique des TPE/PME",
+        "summary": "Le gouvernement a annoncé la mise en place d'un crédit d'impôt spécifique pour accompagner la transformation numérique des TPE et PME. Ce dispositif permettra aux entreprises éligibles de bénéficier d'un crédit d'impôt de 30% sur leurs dépenses liées à l'adoption d'outils numériques, avec un plafond de 50 000 euros sur trois ans.",
+        "source": "La Tribune",
+        "url": "https://www.latribune.fr/technos-medias/transformation-digitale/nouveau-credit-d-impot-pour-la-transformation-numerique-des-tpe-pme-975321.html",
+        "date": "2024-06-20",
+        "tags": ["fiscalité", "transformation numérique", "aides publiques"],
+        "impact": "high"
+      },
+      {
+        "id": "tech-news-5",
+        "title": "Cybersécurité : les attaques par ransomware ont augmenté de 45% en France",
+        "summary": "Selon le dernier rapport de l'ANSSI, les attaques par ransomware ont connu une hausse de 45% en France au premier semestre 2024. Les secteurs les plus touchés sont la santé, l'industrie et les services informatiques. Les experts recommandent aux entreprises de renforcer leurs dispositifs de sauvegarde et de sensibiliser davantage leurs collaborateurs.",
+        "source": "Le Figaro",
+        "url": "https://www.lefigaro.fr/secteur/high-tech/cybersecurite-les-attaques-par-ransomware-ont-augmente-de-45-en-france-20240610",
+        "date": "2024-06-10",
+        "tags": ["cybersécurité", "ransomware", "risques"],
+        "impact": "high"
+      }
+    ],
+    "Santé": [
+      {
+        "id": "sante-news-1",
+        "title": "Biotechnologies : la France lance un plan d'investissement de 2 milliards d'euros",
+        "summary": "Le gouvernement français a annoncé un plan d'investissement de 2 milliards d'euros sur cinq ans pour soutenir le secteur des biotechnologies. Ce plan vise à renforcer la recherche, accélérer le transfert de technologies et faciliter le passage à l'échelle industrielle des innovations françaises dans le domaine de la santé.",
+        "source": "Les Échos",
+        "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/biotechnologies-la-france-lance-un-plan-dinvestissement-de-2-milliards-deuros-1992456",
+        "date": "2024-05-15",
+        "tags": ["investissement", "recherche", "innovation"],
+        "impact": "high"
+      },
+      {
+        "id": "sante-news-2",
+        "title": "Nouvelles règles européennes pour les dispositifs médicaux connectés",
+        "summary": "L'Union européenne a adopté de nouvelles règles pour encadrer les dispositifs médicaux connectés. Ces dispositifs devront désormais répondre à des exigences renforcées en matière de cybersécurité et de protection des données personnelles. Les fabricants ont jusqu'à 2026 pour se mettre en conformité.",
+        "source": "Le Quotidien du Médecin",
+        "url": "https://www.lequotidiendumedecin.fr/specialites/e-sante/nouvelles-regles-europeennes-pour-les-dispositifs-medicaux-connectes",
+        "date": "2024-06-05",
+        "tags": ["réglementation", "e-santé", "cybersécurité"],
+        "impact": "medium"
+      },
+      {
+        "id": "sante-news-3",
+        "title": "Les laboratoires pharmaceutiques face à une pénurie mondiale de talents en R&D",
+        "summary": "Une étude de McKinsey révèle que le secteur pharmaceutique fait face à une pénurie croissante de talents qualifiés en R&D, particulièrement dans les domaines de la biologie moléculaire et de l'intelligence artificielle appliquée à la santé. Cette situation pourrait ralentir l'innovation et le développement de nouveaux traitements.",
+        "source": "Pharmaceutiques",
+        "url": "https://www.pharmaceutiques.com/actualites/les-laboratoires-pharmaceutiques-face-a-une-penurie-mondiale-de-talents-en-rd",
+        "date": "2024-05-22",
+        "tags": ["emploi", "recherche", "compétences"],
+        "impact": "medium"
+      },
+      {
+        "id": "sante-news-4",
+        "title": "Médecine personnalisée : remboursement élargi des tests génomiques",
+        "summary": "L'Assurance Maladie a annoncé l'élargissement du remboursement des tests génomiques pour plusieurs pathologies. Cette décision marque une avancée significative pour la médecine personnalisée en France et devrait bénéficier à plus de 50 000 patients par an, notamment dans le domaine de l'oncologie.",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/sciences/article/2024/06/12/medecine-personnalisee-remboursement-elargi-des-tests-genomiques_6225789_1650684.html",
+        "date": "2024-06-12",
+        "tags": ["génomique", "remboursement", "médecine personnalisée"],
+        "impact": "high"
+      }
+    ],
+    "BTP": [
+      {
+        "id": "btp-news-1",
+        "title": "RE2020 : nouvelles exigences pour les constructions neuves à partir de janvier 2025",
+        "summary": "La réglementation environnementale RE2020 va connaître un durcissement de ses exigences à partir de janvier 2025. Les seuils d'émission de gaz à effet de serre seront abaissés de 15% supplémentaires pour les constructions neuves, imposant aux professionnels du secteur d'accélérer leur transition vers des matériaux et des techniques moins carbonés.",
+        "source": "Le Moniteur",
+        "url": "https://www.lemoniteur.fr/article/re2020-nouvelles-exigences-pour-les-constructions-neuves-a-partir-de-janvier-2025",
+        "date": "2024-06-18",
+        "tags": ["réglementation", "environnement", "construction"],
+        "impact": "high"
+      },
+      {
+        "id": "btp-news-2",
+        "title": "Crise des matériaux : les prix se stabilisent mais restent élevés",
+        "summary": "Après deux années de fortes hausses, les prix des matériaux de construction se stabilisent enfin, selon la Fédération Française du Bâtiment. Cependant, ils demeurent à des niveaux historiquement élevés, avec des prix moyens supérieurs de 25% à ceux de 2021. Cette situation continue de peser sur la rentabilité des entreprises du secteur.",
+        "source": "Les Échos",
+        "url": "https://www.lesechos.fr/industrie-services/immobilier-btp/crise-des-materiaux-les-prix-se-stabilisent-mais-restent-eleves-1993567",
+        "date": "2024-05-30",
+        "tags": ["matériaux", "prix", "rentabilité"],
+        "impact": "medium"
+      },
+      {
+        "id": "btp-news-3",
+        "title": "Plan de relance de la construction : 2 milliards d'euros pour soutenir le logement neuf",
+        "summary": "Face à la crise que traverse le secteur de la construction neuve, le gouvernement a annoncé un plan de relance de 2 milliards d'euros. Ce plan comprend des aides fiscales pour les investisseurs, un renforcement du prêt à taux zéro et des mesures pour accélérer la délivrance des permis de construire dans les zones tendues.",
+        "source": "La Tribune",
+        "url": "https://www.latribune.fr/economie/france/plan-de-relance-de-la-construction-2-milliards-d-euros-pour-soutenir-le-logement-neuf-975482.html",
+        "date": "2024-06-25",
+        "tags": ["logement", "investissement", "aides publiques"],
+        "impact": "high"
+      },
+      {
+        "id": "btp-news-4",
+        "title": "BIM : 70% des grands projets utilisent désormais la maquette numérique",
+        "summary": "Selon une étude de l'Observatoire du BTP, 70% des grands projets de construction utilisent désormais la modélisation des données du bâtiment (BIM). Cette technologie permet de réduire les coûts de construction de 7% en moyenne et d'améliorer significativement la coordination entre les différents corps de métier.",
+        "source": "Batiactu",
+        "url": "https://www.batiactu.com/edito/bim-70-grands-projets-utilisent-desormais-maquette-numerique-65892.php",
+        "date": "2024-06-08",
+        "tags": ["BIM", "numérique", "productivité"],
+        "impact": "medium"
+      }
+    ],
+    "Finance": [
+      {
+        "id": "finance-news-1",
+        "title": "Finance durable : nouvelles obligations de reporting ESG pour les sociétés de gestion",
+        "summary": "L'Autorité des Marchés Financiers (AMF) a publié de nouvelles directives renforçant les obligations de reporting ESG pour les sociétés de gestion. À partir de janvier 2025, ces dernières devront fournir des informations plus détaillées sur l'impact environnemental et social de leurs investissements, ainsi que sur leur stratégie d'alignement avec l'Accord de Paris.",
+        "source": "Les Échos",
+        "url": "https://www.lesechos.fr/finance-marches/gestion-actifs/finance-durable-nouvelles-obligations-de-reporting-esg-pour-les-societes-de-gestion-1994321",
+        "date": "2024-06-20",
+        "tags": ["ESG", "réglementation", "reporting"],
+        "impact": "high"
+      },
+      {
+        "id": "finance-news-2",
+        "title": "La BCE maintient ses taux directeurs mais prépare une baisse pour septembre",
+        "summary": "La Banque Centrale Européenne a décidé de maintenir ses taux directeurs inchangés lors de sa dernière réunion, mais a clairement indiqué qu'une baisse pourrait intervenir en septembre si l'inflation continue de se rapprocher de l'objectif de 2%. Cette perspective est accueillie favorablement par les marchés financiers et pourrait soulager les entreprises endettées.",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2024/06/14/la-bce-maintient-ses-taux-directeurs-mais-prepare-une-baisse-pour-septembre_6226012_3234.html",
+        "date": "2024-06-14",
+        "tags": ["taux d'intérêt", "politique monétaire", "inflation"],
+        "impact": "high"
+      },
+      {
+        "id": "finance-news-3",
+        "title": "Fintech : l'open banking s'impose dans le paysage financier français",
+        "summary": "Cinq ans après la directive européenne DSP2, l'open banking s'impose progressivement dans le paysage financier français. Selon une étude de KPMG, 65% des établissements financiers français ont désormais développé des API ouvertes et 40% des consommateurs utilisent au moins un service basé sur l'open banking, principalement pour l'agrégation de comptes et les paiements.",
+        "source": "La Tribune",
+        "url": "https://www.latribune.fr/entreprises-finance/banques-finance/fintech-l-open-banking-s-impose-dans-le-paysage-financier-francais-975123.html",
+        "date": "2024-05-25",
+        "tags": ["fintech", "open banking", "innovation"],
+        "impact": "medium"
+      },
+      {
+        "id": "finance-news-4",
+        "title": "Conseil en investissement : l'AMF alerte sur les pratiques commerciales agressives",
+        "summary": "L'Autorité des Marchés Financiers a publié une mise en garde concernant les pratiques commerciales agressives de certaines sociétés de conseil en investissement. L'autorité a constaté une recrudescence de démarchages téléphoniques abusifs et de promesses de rendements irréalistes, particulièrement auprès des investisseurs particuliers.",
+        "source": "Challenges",
+        "url": "https://www.challenges.fr/finance-et-marche/conseil-en-investissement-l-amf-alerte-sur-les-pratiques-commerciales-agressives_862453",
+        "date": "2024-06-05",
+        "tags": ["régulation", "protection des investisseurs", "démarchage"],
+        "impact": "medium"
+      },
+      {
+        "id": "finance-news-5",
+        "title": "Finance verte : le marché des obligations durables dépasse 2 000 milliards d'euros",
+        "summary": "Le marché mondial des obligations durables (vertes, sociales et durables) a franchi le cap des 2 000 milliards d'euros d'encours, selon un rapport de Bloomberg NEF. La France se positionne comme le deuxième émetteur européen, avec plus de 200 milliards d'euros d'obligations durables en circulation, derrière l'Allemagne.",
+        "source": "L'AGEFI",
+        "url": "https://www.agefi.fr/finance-verte/actualites/finance-verte-le-marche-des-obligations-durables-depasse-2-000-milliards",
+        "date": "2024-06-10",
+        "tags": ["finance verte", "obligations", "ESG"],
+        "impact": "medium"
+      }
+    ],
+    "Énergie": [
+      {
+        "id": "energie-news-1",
+        "title": "Énergies renouvelables : la France accélère sur l'éolien offshore",
+        "summary": "Le gouvernement français a annoncé un plan d'accélération pour l'éolien offshore, avec l'objectif d'atteindre 18 GW de capacité installée d'ici 2035, contre 3,5 GW actuellement. Ce plan prévoit le lancement de huit nouveaux appels d'offres sur les façades maritimes françaises et une simplification des procédures administratives.",
+        "source": "Les Échos",
+        "url": "https://www.lesechos.fr/industrie-services/energie-environnement/energies-renouvelables-la-france-accelere-sur-leolien-offshore-1993782",
+        "date": "2024-06-15",
+        "tags": ["éolien offshore", "transition énergétique", "investissement"],
+        "impact": "high"
+      },
+      {
+        "id": "energie-news-2",
+        "title": "Hydrogène vert : l'Europe investit 7 milliards d'euros dans des projets industriels",
+        "summary": "La Commission européenne a annoncé un investissement de 7 milliards d'euros pour soutenir le développement de projets industriels d'hydrogène vert en Europe. Ce financement, qui s'inscrit dans le cadre du plan REPowerEU, vise à créer une capacité de production de 10 millions de tonnes d'hydrogène renouvelable d'ici 2030.",
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2024/06/05/hydrogene-vert-l-europe-investit-7-milliards-d-euros-dans-des-projets-industriels_6225432_3234.html",
+        "date": "2024-06-05",
+        "tags": ["hydrogène", "investissement", "décarbonation"],
+        "impact": "high"
+      },
+      {
+        "id": "energie-news-3",
+        "title": "Prix de l'électricité : hausse modérée de 3% prévue pour les entreprises en 2025",
+        "summary": "La Commission de Régulation de l'Énergie (CRE) anticipe une hausse modérée de 3% des prix de l'électricité pour les entreprises en 2025. Cette augmentation, plus faible que celle observée ces dernières années, s'explique par une stabilisation des prix de gros et par les réformes du marché européen de l'électricité.",
+        "source": "La Tribune",
+        "url": "https://www.latribune.fr/entreprises-finance/industrie/energie-environnement/prix-de-l-electricite-hausse-moderee-de-3-prevue-pour-les-entreprises-en-2025-975234.html",
+        "date": "2024-06-22",
+        "tags": ["électricité", "prix", "compétitivité"],
+        "impact": "medium"
+      },
+      {
+        "id": "energie-news-4",
+        "title": "Rénovation énergétique : le dispositif MaPrimeRénov' évolue pour les copropriétés",
+        "summary": "Le gouvernement a annoncé une évolution du dispositif MaPrimeRénov' pour les copropriétés, avec un renforcement des aides pour les rénovations globales. Le plafond de l'aide sera porté à 25 000 euros par logement (contre 15 000 euros actuellement) pour les rénovations permettant d'atteindre au moins la classe C du DPE.",
+        "source": "Batiactu",
+        "url": "https://www.batiactu.com/edito/renovation-energetique-dispositif-maprimerenovation-evolue-coproprietes-65921.php",
+        "date": "2024-06-10",
+        "tags": ["rénovation énergétique", "aides publiques", "copropriétés"],
+        "impact": "medium"
+      }
+    ]
+  }
+} 

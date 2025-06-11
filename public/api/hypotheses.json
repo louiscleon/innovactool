@@ -1,0 +1,214 @@
+{
+  "hypotheses": [
+    {
+      "id": "hyp001",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous envisageons de recruter 3 développeurs supplémentaires pour répondre à la demande croissante de nos clients dans le secteur bancaire.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+18%",
+          "CA_absolu": "1,08 M€",
+          "marge": "11,2%",
+          "tresorerie": "+145k€",
+          "effectifs": "27",
+          "investissements": "27k€",
+          "masse_salariale": "226k€"
+        },
+        "neutre": {
+          "CA": "+12,9%",
+          "CA_absolu": "1,04 M€",
+          "marge": "8,6%",
+          "tresorerie": "75k€",
+          "effectifs": "27",
+          "investissements": "27k€",
+          "masse_salariale": "226k€"
+        },
+        "pessimiste": {
+          "CA": "+5,4%",
+          "CA_absolu": "970k€",
+          "marge": "5,5%",
+          "tresorerie": "-15k€",
+          "effectifs": "27",
+          "investissements": "27k€",
+          "masse_salariale": "226k€"
+        }
+      },
+      "justification": "Analyse basée sur 178 entreprises de programmation informatique ayant augmenté leurs effectifs de plus de 10% en une année. Les entreprises du secteur bancaire montrent une croissance moyenne de 12,9% du CA suite à un renforcement des équipes techniques. Le retour sur investissement se fait généralement en 9-12 mois une fois les développeurs pleinement opérationnels.",
+      "facteurs_cles": [
+        "Croissance du secteur bancaire: +7,2%",
+        "Délai moyen avant productivité optimale d'un développeur: 4 mois",
+        "Tension sur le marché de l'emploi IT: forte",
+        "Contexte économique parisien: forte demande en services IT"
+      ],
+      "fiabilite": 91.36
+    },
+    {
+      "id": "hyp002",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous envisageons d'investir 200k€ dans une nouvelle ligne de production, est-ce rentable ?",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+22%",
+          "CA_absolu": "1,12 M€",
+          "marge": "13,5%",
+          "tresorerie": "-50k€ la première année, puis +180k€/an",
+          "effectifs": "24",
+          "investissements": "200k€",
+          "productivité": "+35%"
+        },
+        "neutre": {
+          "CA": "+15,7%",
+          "CA_absolu": "1,06 M€",
+          "marge": "11,2%",
+          "tresorerie": "-50k€ la première année, puis +120k€/an",
+          "effectifs": "24",
+          "investissements": "200k€",
+          "productivité": "+25%"
+        },
+        "pessimiste": {
+          "CA": "+7,8%",
+          "CA_absolu": "992k€",
+          "marge": "8,4%",
+          "tresorerie": "-50k€ la première année, puis +45k€/an",
+          "effectifs": "24",
+          "investissements": "200k€",
+          "productivité": "+15%"
+        }
+      },
+      "justification": "Analyse basée sur 92 entreprises informatiques ayant réalisé des investissements similaires entre 2020 et 2023. Le retour sur investissement moyen observé est de 22 mois avec une amélioration moyenne de la productivité de 25%. Pour InfoTech Solutions, avec un CA de 920k€ et une marge nette de 10%, cet investissement permettrait de maintenir la croissance sans augmenter proportionnellement les effectifs.",
+      "facteurs_cles": [
+        "TRI (Taux de Rentabilité Interne) estimé: 19,8%",
+        "Point mort estimé: 22 mois",
+        "VAN (Valeur Actuelle Nette) sur 3 ans: +95k€",
+        "Indice de confiance sectoriel: élevé (85/100)"
+      ],
+      "fiabilite": 89.4
+    },
+    {
+      "id": "hyp003",
+      "sector": "Programmation informatique",
+      "hypothesis": "Quel serait l'impact d'une augmentation de 10% de nos tarifs sur notre chiffre d'affaires ?",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+8,5%",
+          "CA_absolu": "998k€",
+          "marge": "15,2%",
+          "tresorerie": "+108k€",
+          "effectifs": "24",
+          "investissements": "0€",
+          "taux_attrition_clients": "1,5%"
+        },
+        "neutre": {
+          "CA": "+4,2%",
+          "CA_absolu": "959k€",
+          "marge": "12,8%",
+          "tresorerie": "+85k€",
+          "effectifs": "24",
+          "investissements": "0€",
+          "taux_attrition_clients": "5,8%"
+        },
+        "pessimiste": {
+          "CA": "-5,4%",
+          "CA_absolu": "870k€",
+          "marge": "9,5%",
+          "tresorerie": "+42k€",
+          "effectifs": "22",
+          "investissements": "0€",
+          "taux_attrition_clients": "15,4%"
+        }
+      },
+      "justification": "Analyse basée sur 126 ESN ayant augmenté leurs tarifs de 8 à 12% entre 2021 et 2023. L'élasticité-prix moyenne dans le secteur est de -0,58, ce qui signifie qu'une augmentation de 10% des tarifs entraîne en moyenne une baisse de volume de 5,8%. Pour InfoTech Solutions, avec un positionnement premium et une fidélité client supérieure à la moyenne, l'impact devrait être plus modéré.",
+      "facteurs_cles": [
+        "Élasticité-prix moyenne du secteur: -0,58",
+        "Taux de fidélisation client InfoTech: 92%",
+        "Positionnement tarifaire actuel: quartile supérieur",
+        "Contexte inflationniste: +4,2% sur les charges en 2024"
+      ],
+      "fiabilite": 88.5
+    },
+    {
+      "id": "hyp007",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous prévoyons de créer une offre de services avec abonnement mensuel pour stabiliser nos revenus",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+15%",
+          "CA_absolu": "1,058 M€",
+          "marge": "13,4%",
+          "tresorerie": "+75k€/an",
+          "effectifs": "25",
+          "investissements": "80k€",
+          "revenus_recurrents": "60% du CA total"
+        },
+        "neutre": {
+          "CA": "+12,9%",
+          "CA_absolu": "1,04 M€",
+          "marge": "12%",
+          "tresorerie": "+45k€/an",
+          "effectifs": "25",
+          "investissements": "80k€",
+          "revenus_recurrents": "48% du CA total"
+        },
+        "pessimiste": {
+          "CA": "+5,2%",
+          "CA_absolu": "968k€",
+          "marge": "9,2%",
+          "tresorerie": "-10k€ la première année, puis +25k€/an",
+          "effectifs": "25",
+          "investissements": "80k€",
+          "revenus_recurrents": "35% du CA total"
+        }
+      },
+      "justification": "Projection basée sur l'analyse de 65 entreprises de services numériques ayant opéré une transition vers un modèle de revenus récurrents par abonnement. La valorisation moyenne des entreprises a augmenté de x2,5 après cette transformation. Pour InfoTech Solutions, avec un CA actuel de 920k€ et une marge de 10%, cette transition permettrait de réduire la volatilité du chiffre d'affaires et d'améliorer la prédictibilité financière.",
+      "facteurs_cles": [
+        "Taux de rétention client moyen du secteur: 85%",
+        "Durée moyenne des contrats d'abonnement: 28 mois",
+        "Coût d'acquisition client amorti sur: 9 mois",
+        "Multiple de valorisation moyen: x1,8 à x2,5 l'EBITDA"
+      ],
+      "fiabilite": 91.36
+    },
+    {
+      "id": "hyp008",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous envisageons d'ouvrir une filiale à l'étranger pour développer notre marché européen",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+12%",
+          "CA_absolu": "1,03 M€",
+          "marge": "11,4%",
+          "tresorerie": "-200k€ la première année, puis +120k€/an",
+          "effectifs": "27",
+          "investissements": "280k€",
+          "part_export": "30% du CA"
+        },
+        "neutre": {
+          "CA": "+8,5%",
+          "CA_absolu": "998k€",
+          "marge": "8,2%",
+          "tresorerie": "-200k€ la première année, puis +75k€/an",
+          "effectifs": "26",
+          "investissements": "280k€",
+          "part_export": "20% du CA"
+        },
+        "pessimiste": {
+          "CA": "+3,2%",
+          "CA_absolu": "950k€",
+          "marge": "5,3%",
+          "tresorerie": "-200k€ la première année, puis +30k€/an",
+          "effectifs": "26",
+          "investissements": "280k€",
+          "part_export": "12% du CA"
+        }
+      },
+      "justification": "Analyse basée sur 53 PME françaises du secteur informatique ayant ouvert une filiale européenne entre 2020 et 2023. Avec un CA actuel de 920k€, une expansion internationale représente un investissement significatif pour InfoTech Solutions, mais la demande croissante en Europe de l'Est et du Nord offre des opportunités de croissance importantes. Le délai moyen pour atteindre la rentabilité est de 24 mois.",
+      "facteurs_cles": [
+        "Potentiel du marché européen: +12% de croissance annuelle",
+        "Barrières réglementaires: faibles (conformité RGPD déjà en place)",
+        "Point mort estimé: 24 mois",
+        "ROI moyen observé: 17,5% après 3 ans"
+      ],
+      "fiabilite": 84.2
+    }
+  ]
+} 

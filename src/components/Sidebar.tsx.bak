@@ -1,0 +1,101 @@
+"use client";
+
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { 
+  Shield, 
+  PieChart, 
+  MessageSquare, 
+  Search, 
+  Users, 
+  Home,
+  Settings,
+  HelpCircle,
+  TrendingUp
+} from 'lucide-react';
+
+interface NavItemProps {
+  href: string;
+  icon: React.ReactNode;
+  label: string;
+  isActive: boolean;
+}
+
+function NavItem({ href, icon, label, isActive }: NavItemProps) {
+  return (
+    <Link href={href} className="relative group block">
+      <div className={`
+        flex flex-col items-center justify-center w-12 h-12 mx-auto mb-1 rounded-lg transition-all duration-200
+        ${isActive 
+          ? 'bg-primary-50 text-primary-600 shadow-sm' 
+          : 'text-gray-500 hover:text-primary-600 hover:bg-gray-50'
+        }
+      `}>
+        <div className="w-5 h-5">
+          {icon}
+        </div>
+        <span className="text-xs mt-0.5 font-medium">{label}</span>
+      </div>
+      
+      {/* Tooltip */}
+      <div className="absolute left-full ml-3 py-1 px-2 bg-gray-900 text-white text-xs rounded
+                     opacity-0 invisible -translate-x-1
+                     group-hover:opacity-100 group-hover:visible group-hover:translate-x-0
+                     transition-all duration-150 z-50 whitespace-nowrap">
+        {label}
+      </div>
+    </Link>
+  );
+}
+
+export function Sidebar() {
+  const pathname = usePathname();
+  
+  const modules = [
+    { href: '/', icon: <Home size={20} />, label: 'Accueil' },
+    { href: '/modules/data-guardian', icon: <Shield size={20} />, label: 'Data Guardian' },
+    { href: '/modules/pilotview', icon: <PieChart size={20} />, label: 'PilotView' },
+    { href: '/modules/cpa-copilot', icon: <MessageSquare size={20} />, label: 'CPA Copilot' },
+    { href: '/modules/reviewmaster-ai', icon: <Search size={20} />, label: 'ReviewMaster' },
+    { href: '/modules/clientscope', icon: <Users size={20} />, label: 'ClientScope' },
+    { href: '/modules/forecaster', icon: <TrendingUp size={20} />, label: 'Prévisionniste' },
+  ];
+  
+  return (
+    <aside className="fixed top-0 left-0 h-full w-16 bg-white border-r border-gray-100 flex flex-col py-5 shadow-sm z-10">
+      {/* Logo */}
+      <div className="mb-6 flex justify-center">
+        <div className="w-10 h-10 bg-primary-500 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-sm">
+          IT
+        </div>
+      </div>
+      
+      {/* Navigation */}
+      <nav className="flex flex-col items-center gap-1 px-1.5 flex-1">
+        {modules.map((module) => (
+          <NavItem
+            key={module.href}
+            href={module.href}
+            icon={module.icon}
+            label={module.label}
+            isActive={pathname === module.href || 
+                     (module.href !== '/' && pathname.startsWith(module.href))}
+          />
+        ))}
+      </nav>
+      
+      {/* Bottom actions */}
+      <div className="mt-auto pt-4 border-t border-gray-100 flex flex-col items-center gap-1 px-1.5">
+        <button className="w-12 h-12 flex flex-col items-center justify-center rounded-lg text-gray-500 hover:text-primary-600 hover:bg-gray-50 transition-all">
+          <HelpCircle size={20} />
+          <span className="text-xs mt-0.5 font-medium">Aide</span>
+        </button>
+        
+        <button className="w-12 h-12 flex flex-col items-center justify-center rounded-lg text-gray-500 hover:text-primary-600 hover:bg-gray-50 transition-all">
+          <Settings size={20} />
+          <span className="text-xs mt-0.5 font-medium">Options</span>
+        </button>
+      </div>
+    </aside>
+  );
+} 

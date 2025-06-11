@@ -1,0 +1,401 @@
+{
+  "metadata": {
+    "source": "Forecaster - Simulation",
+    "version": "1.0.0",
+    "last_updated": "2024-07-01"
+  },
+  "hypotheses": [
+    {
+      "id": "hyp001",
+      "sector": "Services informatiques",
+      "hypothesis": "Nous envisageons de recruter 5 développeurs supplémentaires pour répondre à la demande croissante de nos clients dans le secteur bancaire.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+20%",
+          "marge": "+15%",
+          "tresorerie": "+120k€",
+          "effectifs": "+5",
+          "investissements": "+25k€",
+          "charges_sociales": "+210k€"
+        },
+        "neutre": {
+          "CA": "+12%",
+          "marge": "+8%",
+          "tresorerie": "+70k€",
+          "effectifs": "+5",
+          "investissements": "+25k€",
+          "charges_sociales": "+210k€"
+        },
+        "pessimiste": {
+          "CA": "+5%",
+          "marge": "-3%",
+          "tresorerie": "-20k€",
+          "effectifs": "+5",
+          "investissements": "+25k€",
+          "charges_sociales": "+210k€"
+        }
+      },
+      "justification": "Basé sur l'analyse de 178 entreprises similaires ayant augmenté leurs effectifs de plus de 10% en une année. Les entreprises du secteur bancaire montrent une croissance moyenne de 15% du CA suite à un renforcement des équipes techniques.",
+      "facteurs_cles": [
+        "Croissance du secteur bancaire: +7.2%",
+        "Délai moyen avant productivité optimale d'un développeur: 4 mois",
+        "Tension sur le marché de l'emploi IT: forte"
+      ],
+      "fiabilite": 85
+    },
+    {
+      "id": "hyp002",
+      "sector": "BTP",
+      "hypothesis": "Nous prévoyons d'investir dans une nouvelle machine de production pour réduire nos délais de fabrication de 30%.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+15%",
+          "marge": "+12%",
+          "tresorerie": "-80k€ la première année, puis +120k€/an",
+          "effectifs": "0",
+          "investissements": "+350k€",
+          "productivité": "+35%"
+        },
+        "neutre": {
+          "CA": "+8%",
+          "marge": "+6%",
+          "tresorerie": "-80k€ la première année, puis +70k€/an",
+          "effectifs": "0",
+          "investissements": "+350k€",
+          "productivité": "+25%"
+        },
+        "pessimiste": {
+          "CA": "+3%",
+          "marge": "+2%",
+          "tresorerie": "-80k€ la première année, puis +30k€/an",
+          "effectifs": "0",
+          "investissements": "+350k€",
+          "productivité": "+15%"
+        }
+      },
+      "justification": "Analyse basée sur 92 entreprises du secteur BTP ayant réalisé des investissements similaires entre 2020 et 2023. Le retour sur investissement moyen observé est de 4,2 ans avec une amélioration moyenne de la productivité de 25%.",
+      "facteurs_cles": [
+        "Carnet de commandes actuel: 8 mois",
+        "Taux d'utilisation des machines actuelles: 85%",
+        "Évolution du marché de la construction: +3.5% prévus"
+      ],
+      "fiabilite": 78
+    },
+    {
+      "id": "hyp003",
+      "sector": "Finance",
+      "hypothesis": "Nous souhaitons ouvrir une nouvelle agence dans le sud de la France pour développer notre clientèle patrimoniale.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+18%",
+          "marge": "+16%",
+          "tresorerie": "-150k€ la première année, puis +200k€/an",
+          "effectifs": "+4",
+          "investissements": "+280k€",
+          "nouveaux_clients": "+120"
+        },
+        "neutre": {
+          "CA": "+12%",
+          "marge": "+10%",
+          "tresorerie": "-150k€ la première année, puis +120k€/an",
+          "effectifs": "+4",
+          "investissements": "+280k€",
+          "nouveaux_clients": "+80"
+        },
+        "pessimiste": {
+          "CA": "+5%",
+          "marge": "+3%",
+          "tresorerie": "-150k€ la première année, puis +40k€/an",
+          "effectifs": "+4",
+          "investissements": "+280k€",
+          "nouveaux_clients": "+40"
+        }
+      },
+      "justification": "Projection basée sur l'analyse de 45 sociétés de conseil en gestion de patrimoine ayant ouvert de nouvelles agences régionales entre 2019 et 2023. Le point mort moyen est atteint après 18 mois d'activité.",
+      "facteurs_cles": [
+        "Densité de population cible dans la région: élevée",
+        "Concurrence locale: modérée (3 acteurs principaux)",
+        "Patrimoine moyen par habitant dans la zone: 320k€"
+      ],
+      "fiabilite": 82
+    },
+    {
+      "id": "hyp004",
+      "sector": "Santé",
+      "hypothesis": "Nous envisageons de lancer une nouvelle gamme de produits dermatologiques biologiques pour diversifier notre offre.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+25%",
+          "marge": "+22%",
+          "tresorerie": "-200k€ la première année, puis +180k€/an",
+          "effectifs": "+2",
+          "investissements": "+320k€",
+          "part_de_marche": "5% du segment visé"
+        },
+        "neutre": {
+          "CA": "+15%",
+          "marge": "+12%",
+          "tresorerie": "-200k€ la première année, puis +90k€/an",
+          "effectifs": "+2",
+          "investissements": "+320k€",
+          "part_de_marche": "3% du segment visé"
+        },
+        "pessimiste": {
+          "CA": "+7%",
+          "marge": "+4%",
+          "tresorerie": "-200k€ la première année, puis +30k€/an",
+          "effectifs": "+2",
+          "investissements": "+320k€",
+          "part_de_marche": "1.5% du segment visé"
+        }
+      },
+      "justification": "Analyse basée sur 32 entreprises du secteur pharmaceutique/cosmétique ayant diversifié leur offre vers des produits biologiques. Le marché des cosmétiques bio croît de 8.5% par an en moyenne depuis 5 ans.",
+      "facteurs_cles": [
+        "Croissance du marché bio: +8.5%/an",
+        "Marge brute moyenne sur les produits biologiques: +15% vs produits classiques",
+        "Coût d'entrée marketing: élevé"
+      ],
+      "fiabilite": 76
+    },
+    {
+      "id": "hyp005",
+      "sector": "Énergie",
+      "hypothesis": "Nous prévoyons d'investir dans une installation photovoltaïque pour réduire notre facture énergétique de 40%.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "0%",
+          "marge": "+3.5%",
+          "tresorerie": "-180k€ la première année, puis +45k€/an",
+          "effectifs": "0",
+          "investissements": "+180k€",
+          "economies_energetiques": "45%"
+        },
+        "neutre": {
+          "CA": "0%",
+          "marge": "+2%",
+          "tresorerie": "-180k€ la première année, puis +30k€/an",
+          "effectifs": "0",
+          "investissements": "+180k€",
+          "economies_energetiques": "35%"
+        },
+        "pessimiste": {
+          "CA": "0%",
+          "marge": "+0.8%",
+          "tresorerie": "-180k€ la première année, puis +15k€/an",
+          "effectifs": "0",
+          "investissements": "+180k€",
+          "economies_energetiques": "25%"
+        }
+      },
+      "justification": "Projection basée sur l'analyse de 125 PME industrielles ayant investi dans des installations photovoltaïques entre 2020 et 2023. Le retour sur investissement moyen constaté est de 6,2 ans.",
+      "facteurs_cles": [
+        "Évolution prévue des prix de l'électricité: +3.5%/an",
+        "Ensoleillement moyen de la région: 1850h/an",
+        "Aides fiscales disponibles: 25% de l'investissement"
+      ],
+      "fiabilite": 88
+    },
+    {
+      "id": "hyp006",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous envisageons d'intégrer l'IA et l'automatisation dans nos offres.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+20%",
+          "CA_absolu": "+184,000€",
+          "marge": "+18%",
+          "tresorerie": "-150k€ la première année, puis +180k€/an",
+          "effectifs": "+2",
+          "investissements": "+150k€",
+          "nouveaux_clients": "+25%"
+        },
+        "neutre": {
+          "CA": "+15%",
+          "CA_absolu": "+138,000€",
+          "marge": "+12%",
+          "tresorerie": "-150k€ la première année, puis +120k€/an",
+          "effectifs": "+2",
+          "investissements": "+150k€",
+          "nouveaux_clients": "+15%"
+        },
+        "pessimiste": {
+          "CA": "+8%",
+          "CA_absolu": "+73,600€",
+          "marge": "+5%",
+          "tresorerie": "-150k€ la première année, puis +60k€/an",
+          "effectifs": "+2",
+          "investissements": "+150k€",
+          "nouveaux_clients": "+8%"
+        }
+      },
+      "justification": "Analyse basée sur 68 entreprises du secteur informatique à Paris ayant intégré des solutions d'IA depuis 2022. Les entreprises de ce secteur dans la région parisienne ont connu une croissance moyenne du CA de 18% sur les 18 premiers mois après implémentation, avec un impact particulièrement fort sur les services de développement logiciel.",
+      "facteurs_cles": [
+        "Dynamisme du marché de l'IA à Paris: en forte croissance (+35%/an)",
+        "Adoption de l'IA dans le secteur informatique: 42% des entreprises",
+        "Retour sur investissement moyen: 10 mois",
+        "Avantage compétitif constaté: important pour les ESN parisiennes"
+      ],
+      "fiabilite": 84
+    },
+    {
+      "id": "hyp007",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous prévoyons de créer une offre de services cloud avec abonnement mensuel.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+18% la première année, puis +25% récurrent",
+          "CA_absolu": "+165,600€",
+          "marge": "+20%",
+          "tresorerie": "-80k€ la première année, puis +120k€/an",
+          "effectifs": "+2",
+          "investissements": "+80k€",
+          "revenus_recurrents": "55% du CA total"
+        },
+        "neutre": {
+          "CA": "+15% la première année, puis +18% récurrent",
+          "CA_absolu": "+138,000€",
+          "marge": "+15%",
+          "tresorerie": "-80k€ la première année, puis +90k€/an",
+          "effectifs": "+2",
+          "investissements": "+80k€",
+          "revenus_recurrents": "45% du CA total"
+        },
+        "pessimiste": {
+          "CA": "+10% la première année, puis +12% récurrent",
+          "CA_absolu": "+92,000€",
+          "marge": "+8%",
+          "tresorerie": "-80k€ la première année, puis +40k€/an",
+          "effectifs": "+2",
+          "investissements": "+80k€",
+          "revenus_recurrents": "30% du CA total"
+        }
+      },
+      "justification": "Analyse basée sur 73 entreprises du secteur informatique en Île-de-France ayant opéré une transition vers un modèle SaaS depuis 2020. Les ESN parisiennes spécialisées en développement logiciel ont vu leur valorisation augmenter de 2.8x en moyenne après cette transformation. Pour InfoTech Solutions, basée à Paris, cette transition représente une opportunité stratégique parfaitement alignée avec les tendances du marché local.",
+      "facteurs_cles": [
+        "Taux d'adoption du cloud dans le secteur parisien: 78%",
+        "Durée moyenne des contrats d'abonnement à Paris: 32 mois",
+        "Coût d'acquisition client amorti sur: 7 mois",
+        "Concurrence locale sur les services cloud: modérée (15 acteurs principaux)"
+      ],
+      "fiabilite": 86
+    },
+    {
+      "id": "hyp008",
+      "sector": "Programmation informatique",
+      "hypothesis": "Nous envisageons de développer une stratégie d'expansion internationale.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+15%",
+          "CA_absolu": "+138,000€",
+          "marge": "+12%",
+          "tresorerie": "-280k€ la première année, puis +180k€/an",
+          "effectifs": "+4",
+          "investissements": "+280k€",
+          "part_de_marche": "Accès à 3 nouveaux marchés européens"
+        },
+        "neutre": {
+          "CA": "+12%",
+          "CA_absolu": "+110,400€",
+          "marge": "+8%",
+          "tresorerie": "-280k€ la première année, puis +120k€/an",
+          "effectifs": "+3",
+          "investissements": "+280k€",
+          "part_de_marche": "Accès à 2 nouveaux marchés européens"
+        },
+        "pessimiste": {
+          "CA": "+7%",
+          "CA_absolu": "+64,400€",
+          "marge": "+4%",
+          "tresorerie": "-280k€ la première année, puis +50k€/an",
+          "effectifs": "+2",
+          "investissements": "+280k€",
+          "part_de_marche": "Accès à 1 nouveau marché européen"
+        }
+      },
+      "justification": "Analyse basée sur 42 entreprises du secteur de la programmation informatique à Paris ayant développé une présence internationale entre 2018 et 2023. Pour une entreprise comme InfoTech Solutions, basée à Paris et spécialisée dans le développement de logiciels, l'expansion internationale permet d'accéder à de nouveaux marchés où les compétences françaises en développement sont recherchées. Les entreprises parisiennes similaires ont connu une croissance moyenne du CA de 14% dans l'année suivant leur expansion.",
+      "facteurs_cles": [
+        "Marchés européens les plus réceptifs pour les ESN parisiennes: Allemagne, Benelux, Royaume-Uni",
+        "Temps moyen avant rentabilité sur les nouveaux marchés: 14 mois",
+        "Différentiel de tarifs horaires Paris/Europe: +15% en faveur des prestations parisiennes",
+        "Concurrence des ESN locales: variable selon les marchés (faible à modérée)"
+      ],
+      "fiabilite": 82
+    },
+    {
+      "id": "hyp009",
+      "sector": "Finance",
+      "hypothesis": "Nous souhaitons développer une offre de conseil en ESG pour nos clients entreprises.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+22%",
+          "marge": "+25%",
+          "tresorerie": "-50k€ la première année, puis +120k€/an",
+          "effectifs": "+2",
+          "investissements": "+70k€",
+          "nouveaux_clients": "+15%"
+        },
+        "neutre": {
+          "CA": "+15%",
+          "marge": "+18%",
+          "tresorerie": "-50k€ la première année, puis +80k€/an",
+          "effectifs": "+2",
+          "investissements": "+70k€",
+          "nouveaux_clients": "+10%"
+        },
+        "pessimiste": {
+          "CA": "+8%",
+          "marge": "+10%",
+          "tresorerie": "-50k€ la première année, puis +40k€/an",
+          "effectifs": "+2",
+          "investissements": "+70k€",
+          "nouveaux_clients": "+5%"
+        }
+      },
+      "justification": "Projection basée sur l'analyse de 35 cabinets de conseil financier ayant développé une offre ESG depuis 2020. La demande pour ce type de services croît de 30% par an en moyenne.",
+      "facteurs_cles": [
+        "Évolution réglementaire: renforcement des obligations ESG",
+        "Appétence des investisseurs pour l'ESG: croissante",
+        "Concurrence sur ce segment: encore limitée"
+      ],
+      "fiabilite": 82
+    },
+    {
+      "id": "hyp010",
+      "sector": "Santé",
+      "hypothesis": "Nous envisageons d'investir dans un système d'information patient pour améliorer notre efficacité opérationnelle.",
+      "scenarios": {
+        "optimiste": {
+          "CA": "+5%",
+          "marge": "+12%",
+          "tresorerie": "-220k€ la première année, puis +90k€/an",
+          "effectifs": "-2",
+          "investissements": "+250k€",
+          "productivité": "+18%"
+        },
+        "neutre": {
+          "CA": "+3%",
+          "marge": "+8%",
+          "tresorerie": "-220k€ la première année, puis +60k€/an",
+          "effectifs": "-1",
+          "investissements": "+250k€",
+          "productivité": "+12%"
+        },
+        "pessimiste": {
+          "CA": "+1%",
+          "marge": "+4%",
+          "tresorerie": "-220k€ la première année, puis +30k€/an",
+          "effectifs": "0",
+          "investissements": "+250k€",
+          "productivité": "+7%"
+        }
+      },
+      "justification": "Analyse basée sur 48 établissements de santé ayant déployé des systèmes d'information patients entre 2019 et 2023. Le gain de productivité administrative moyen observé est de 15% après la période d'adaptation.",
+      "facteurs_cles": [
+        "Temps actuellement consacré aux tâches administratives: 35%",
+        "Coût moyen des erreurs administratives: 45k€/an",
+        "Durée moyenne d'adaptation au nouveau système: 6 mois"
+      ],
+      "fiabilite": 85
+    }
+  ]
+} 
